@@ -321,6 +321,30 @@ test_eigenfaces_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eigenfaces_autogen.dir/build.make CMakeFiles/test_eigenfaces_autogen.dir/build
 .PHONY : test_eigenfaces_autogen/fast
 
+eigenfaces.o: eigenfaces.cpp.o
+.PHONY : eigenfaces.o
+
+# target to build an object file
+eigenfaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o
+.PHONY : eigenfaces.cpp.o
+
+eigenfaces.i: eigenfaces.cpp.i
+.PHONY : eigenfaces.i
+
+# target to preprocess a source file
+eigenfaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces.cpp.i
+.PHONY : eigenfaces.cpp.i
+
+eigenfaces.s: eigenfaces.cpp.s
+.PHONY : eigenfaces.s
+
+# target to generate assembly for a file
+eigenfaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces.cpp.s
+.PHONY : eigenfaces.cpp.s
+
 eigenfaces_autogen/mocs_compilation.o: eigenfaces_autogen/mocs_compilation.cpp.o
 .PHONY : eigenfaces_autogen/mocs_compilation.o
 
@@ -344,30 +368,6 @@ eigenfaces_autogen/mocs_compilation.s: eigenfaces_autogen/mocs_compilation.cpp.s
 eigenfaces_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.s
 .PHONY : eigenfaces_autogen/mocs_compilation.cpp.s
-
-eigenfaces_no_gui.o: eigenfaces_no_gui.cpp.o
-.PHONY : eigenfaces_no_gui.o
-
-# target to build an object file
-eigenfaces_no_gui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o
-.PHONY : eigenfaces_no_gui.cpp.o
-
-eigenfaces_no_gui.i: eigenfaces_no_gui.cpp.i
-.PHONY : eigenfaces_no_gui.i
-
-# target to preprocess a source file
-eigenfaces_no_gui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.i
-.PHONY : eigenfaces_no_gui.cpp.i
-
-eigenfaces_no_gui.s: eigenfaces_no_gui.cpp.s
-.PHONY : eigenfaces_no_gui.s
-
-# target to generate assembly for a file
-eigenfaces_no_gui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.s
-.PHONY : eigenfaces_no_gui.cpp.s
 
 generate_data_autogen/mocs_compilation.o: generate_data_autogen/mocs_compilation.cpp.o
 .PHONY : generate_data_autogen/mocs_compilation.o
@@ -416,6 +416,30 @@ generate_synthetic_data.s: generate_synthetic_data.cpp.s
 generate_synthetic_data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_data.dir/build.make CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.s
 .PHONY : generate_synthetic_data.cpp.s
+
+qcustomplot.o: qcustomplot.cpp.o
+.PHONY : qcustomplot.o
+
+# target to build an object file
+qcustomplot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o
+.PHONY : qcustomplot.cpp.o
+
+qcustomplot.i: qcustomplot.cpp.i
+.PHONY : qcustomplot.i
+
+# target to preprocess a source file
+qcustomplot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/qcustomplot.cpp.i
+.PHONY : qcustomplot.cpp.i
+
+qcustomplot.s: qcustomplot.cpp.s
+.PHONY : qcustomplot.s
+
+# target to generate assembly for a file
+qcustomplot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigenfaces.dir/build.make CMakeFiles/eigenfaces.dir/qcustomplot.cpp.s
+.PHONY : qcustomplot.cpp.s
 
 test_eigenfaces.o: test_eigenfaces.cpp.o
 .PHONY : test_eigenfaces.o
@@ -585,18 +609,21 @@ help:
 	@echo "... test_eigenfaces"
 	@echo "... visualize_eigenfaces"
 	@echo "... visualize_eigenfaces_qt"
+	@echo "... eigenfaces.o"
+	@echo "... eigenfaces.i"
+	@echo "... eigenfaces.s"
 	@echo "... eigenfaces_autogen/mocs_compilation.o"
 	@echo "... eigenfaces_autogen/mocs_compilation.i"
 	@echo "... eigenfaces_autogen/mocs_compilation.s"
-	@echo "... eigenfaces_no_gui.o"
-	@echo "... eigenfaces_no_gui.i"
-	@echo "... eigenfaces_no_gui.s"
 	@echo "... generate_data_autogen/mocs_compilation.o"
 	@echo "... generate_data_autogen/mocs_compilation.i"
 	@echo "... generate_data_autogen/mocs_compilation.s"
 	@echo "... generate_synthetic_data.o"
 	@echo "... generate_synthetic_data.i"
 	@echo "... generate_synthetic_data.s"
+	@echo "... qcustomplot.o"
+	@echo "... qcustomplot.i"
+	@echo "... qcustomplot.s"
 	@echo "... test_eigenfaces.o"
 	@echo "... test_eigenfaces.i"
 	@echo "... test_eigenfaces.s"

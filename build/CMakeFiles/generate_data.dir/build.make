@@ -73,7 +73,7 @@ generate_data_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
 generate_data_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 generate_data_autogen/timestamp: CMakeFiles/generate_data.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target generate_data"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/generate_data_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/generate_data_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/timestamp
 
 CMakeFiles/generate_data.dir/codegen:
@@ -83,29 +83,29 @@ CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o: CMake
 CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o: generate_data_autogen/mocs_compilation.cpp
 CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o: CMakeFiles/generate_data.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o -MF CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o -MF CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp
 
 CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp > CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp > CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp -o CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp -o CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o: CMakeFiles/generate_data.dir/flags.make
 CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o: /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp
 CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o: CMakeFiles/generate_data.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o -MF CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o.d -o CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o -MF CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o.d -o CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp
 
 CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp > CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp > CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.i
 
 CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp -o CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp -o CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.s
 
 # Object files for target generate_data
 generate_data_OBJECTS = \

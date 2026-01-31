@@ -20,8 +20,6 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -34,15 +32,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/opt/homebrew/bin/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/usr/local/bin/uname"
       - "/System/Cryptexes/App/usr/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -54,8 +48,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "message-v1"
     backtrace:
@@ -84,8 +76,6 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -98,8 +88,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/opt/homebrew/bin/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
       - "/usr/local/bin/gmake"
       - "/System/Cryptexes/App/usr/bin/gmake"
       - "/usr/bin/gmake"
@@ -111,15 +99,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
       - "/opt/pmk/env/global/bin/gmake"
       - "/opt/homebrew/bin/gmake"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
       - "/usr/local/bin/make"
       - "/System/Cryptexes/App/usr/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -131,70 +115,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/pmk/env/global/bin/"
-      - "/opt/homebrew/bin/"
-    searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
-      - "/usr/local/bin/cc"
-      - "/System/Cryptexes/App/usr/bin/cc"
-    found: "/usr/bin/cc"
-    search_context:
-      ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -222,8 +142,6 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -235,8 +153,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "message-v1"
     backtrace:
@@ -246,7 +162,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiler: /usr/bin/clang 
       Build flags: 
       Id flags:  
       
@@ -266,7 +182,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+      Detecting C compiler apple sysroot: "/usr/bin/clang" "-E" "apple-sdk.c"
         # 1 "apple-sdk.c"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -321,8 +237,6 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -336,8 +250,6 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -349,8 +261,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -372,8 +282,6 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -387,8 +295,6 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -400,8 +306,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -423,8 +327,6 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -438,8 +340,6 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -451,8 +351,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -474,8 +372,6 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -489,8 +385,6 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -502,8 +396,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -525,8 +417,6 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -540,8 +430,6 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -553,8 +441,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -576,8 +462,6 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -591,8 +475,6 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -604,8 +486,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -627,8 +507,6 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -641,8 +519,6 @@ events:
       - "/opt/homebrew/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
       - "/usr/local/bin/objcopy"
       - "/System/Cryptexes/App/usr/bin/objcopy"
       - "/bin/objcopy"
@@ -656,8 +532,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -669,8 +543,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -692,8 +564,6 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -706,8 +576,6 @@ events:
       - "/opt/homebrew/bin/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
       - "/usr/local/bin/readelf"
       - "/System/Cryptexes/App/usr/bin/readelf"
       - "/bin/readelf"
@@ -721,8 +589,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -734,8 +600,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -757,8 +621,6 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -771,8 +633,6 @@ events:
       - "/opt/homebrew/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/usr/local/bin/dlltool"
       - "/System/Cryptexes/App/usr/bin/dlltool"
       - "/bin/dlltool"
@@ -786,8 +646,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -799,8 +657,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -822,8 +678,6 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -836,8 +690,6 @@ events:
       - "/opt/homebrew/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
       - "/usr/local/bin/addr2line"
       - "/System/Cryptexes/App/usr/bin/addr2line"
       - "/bin/addr2line"
@@ -851,8 +703,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -864,8 +714,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -887,8 +735,6 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -901,8 +747,6 @@ events:
       - "/opt/homebrew/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/usr/local/bin/tapi"
       - "/System/Cryptexes/App/usr/bin/tapi"
       - "/bin/tapi"
@@ -916,8 +760,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -929,53 +771,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "g++"
-      - "cl"
-      - "bcc"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/c++"
-    search_context:
-      ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "find-v1"
     backtrace:
@@ -1003,8 +798,6 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1016,8 +809,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
   -
     kind: "message-v1"
     backtrace:
@@ -1027,7 +818,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/bin/clang++ 
       Build flags: 
       Id flags:  
       
@@ -1047,7 +838,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+      Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -1101,8 +892,6 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -1115,15 +904,11 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/opt/homebrew/bin/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
       - "/usr/local/bin/install_name_tool"
       - "/System/Cryptexes/App/usr/bin/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1135,8 +920,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1147,8 +930,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm"
-      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm"
+      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz"
+      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1160,18 +943,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm'
+        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e1ec/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e1ec.dir/build.make CMakeFiles/cmTC_1e1ec.dir/build
-        Building C object CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3540/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a3540.dir/build.make CMakeFiles/cmTC_a3540.dir/build
+        Building C object CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1184,13 +967,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_1e1ec
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1ec.dir/link.txt --verbose=1
+        Linking C executable cmTC_a3540
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3540.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1e1ec -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a3540 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:36:05 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1202,7 +985,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -o cmTC_1e1ec
+        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -o cmTC_a3540
         
       exitCode: 0
   -
@@ -1244,18 +1027,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm']
+        ignore line: [Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e1ec/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e1ec.dir/build.make CMakeFiles/cmTC_1e1ec.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3540/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a3540.dir/build.make CMakeFiles/cmTC_a3540.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-1MCiHm -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-TM7Inz -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1268,13 +1051,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_1e1ec]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1ec.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_a3540]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3540.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1e1ec -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a3540 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1291,12 +1074,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1e1ec] ==> ignore
+          arg [cmTC_a3540] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1e1ec.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_a3540.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1338,8 +1121,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi"
-      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi"
+      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O"
+      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1352,19 +1135,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi'
+        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7e83/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7e83.dir/build.make CMakeFiles/cmTC_a7e83.dir/build
-        Building CXX object CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98f14/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98f14.dir/build.make CMakeFiles/cmTC_98f14.dir/build
+        Building CXX object CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1378,13 +1161,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_a7e83
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7e83.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_98f14
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f14.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a7e83 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_98f14 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:36:05 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1396,7 +1179,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a7e83
+        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98f14
         
       exitCode: 0
   -
@@ -1440,19 +1223,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi']
+        ignore line: [Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7e83/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7e83.dir/build.make CMakeFiles/cmTC_a7e83.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98f14/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98f14.dir/build.make CMakeFiles/cmTC_98f14.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-cUm7Hi -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-xzmg4O -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1466,13 +1249,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_a7e83]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7e83.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_98f14]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f14.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a7e83 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_98f14 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1489,12 +1272,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a7e83] ==> ignore
+          arg [cmTC_98f14] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a7e83.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_98f14.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1572,22 +1355,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/OpenCVConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1633,8 +1400,6 @@ events:
       version: "4.13.0"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1646,8 +1411,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1685,8 +1448,8 @@ events:
       - "/opt/homebrew/share/cmake/Modules/FindGTest.cmake:345 (find_package)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-kz3Mlp"
-      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-kz3Mlp"
+      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-bTvG72"
+      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-bTvG72"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1698,15 +1461,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-kz3Mlp'
+        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-bTvG72'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4c9c/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4c9c.dir/build.make CMakeFiles/cmTC_b4c9c.dir/build
-        Building C object CMakeFiles/cmTC_b4c9c.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_b4c9c.dir/src.c.o -MF CMakeFiles/cmTC_b4c9c.dir/src.c.o.d -o CMakeFiles/cmTC_b4c9c.dir/src.c.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-kz3Mlp/src.c
-        Linking C executable cmTC_b4c9c
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4c9c.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b4c9c.dir/src.c.o -o cmTC_b4c9c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8a575/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8a575.dir/build.make CMakeFiles/cmTC_8a575.dir/build
+        Building C object CMakeFiles/cmTC_8a575.dir/src.c.o
+        /usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_8a575.dir/src.c.o -MF CMakeFiles/cmTC_8a575.dir/src.c.o.d -o CMakeFiles/cmTC_8a575.dir/src.c.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-bTvG72/src.c
+        Linking C executable cmTC_8a575
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a575.dir/link.txt --verbose=1
+        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8a575.dir/src.c.o -o cmTC_8a575
         
       exitCode: 0
   -
@@ -1751,22 +1514,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/GTestConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gtest-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/GTestConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gtest-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1815,8 +1562,6 @@ events:
       version: "1.17.0"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1828,8 +1573,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1870,8 +1613,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-ZuYyiZ"
-      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-ZuYyiZ"
+      source: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-RhAVPR"
+      binary: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-RhAVPR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1884,15 +1627,15 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-ZuYyiZ'
+        Change Dir: '/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-RhAVPR'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5276/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c5276.dir/build.make CMakeFiles/cmTC_c5276.dir/build
-        Building CXX object CMakeFiles/cmTC_c5276.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++11 -arch arm64 -MD -MT CMakeFiles/cmTC_c5276.dir/src.cxx.o -MF CMakeFiles/cmTC_c5276.dir/src.cxx.o.d -o CMakeFiles/cmTC_c5276.dir/src.cxx.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-ZuYyiZ/src.cxx
-        Linking CXX executable cmTC_c5276
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5276.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c5276.dir/src.cxx.o -o cmTC_c5276
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_252e5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_252e5.dir/build.make CMakeFiles/cmTC_252e5.dir/build
+        Building CXX object CMakeFiles/cmTC_252e5.dir/src.cxx.o
+        /usr/bin/clang++ -DHAVE_STDATOMIC  -std=gnu++11 -arch arm64 -MD -MT CMakeFiles/cmTC_252e5.dir/src.cxx.o -MF CMakeFiles/cmTC_252e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_252e5.dir/src.cxx.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/CMakeScratch/TryCompile-RhAVPR/src.cxx
+        Linking CXX executable cmTC_252e5
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_252e5.dir/link.txt --verbose=1
+        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_252e5.dir/src.cxx.o -o cmTC_252e5
         
       exitCode: 0
   -
@@ -1948,22 +1691,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Qt6CoreToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/qt6coretools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Qt6CoreToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/qt6coretools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2009,8 +1736,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2022,8 +1747,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2071,8 +1794,6 @@ events:
       - "macdeployqt"
     candidate_directories:
       - "/opt/homebrew/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -2116,8 +1837,6 @@ events:
     found: "/opt/homebrew/bin/macdeployqt"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2129,8 +1848,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2239,8 +1956,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2252,8 +1967,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2305,8 +2018,6 @@ events:
       - "OpenGL"
       - "GL"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -2328,8 +2039,6 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2341,8 +2050,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2396,8 +2103,6 @@ events:
       - "OpenGL"
       - "GLU"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -2419,8 +2124,6 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2432,8 +2135,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2487,8 +2188,6 @@ events:
       - "OpenGL/gl.h"
       - "GL/gl.h"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -2529,8 +2228,6 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/gl.h"
       - "/usr/local/bin/OpenGL.framework/Headers/gl.h"
       - "/System/Cryptexes/App/usr/bin/OpenGL.framework/Headers/gl.h"
       - "/usr/bin/OpenGL.framework/Headers/gl.h"
@@ -2568,8 +2265,6 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2581,8 +2276,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2636,8 +2329,6 @@ events:
       - "OpenGL/glu.h"
       - "GL/glu.h"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -2678,8 +2369,6 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/glu.h"
       - "/usr/local/bin/OpenGL.framework/Headers/glu.h"
       - "/System/Cryptexes/App/usr/bin/OpenGL.framework/Headers/glu.h"
       - "/usr/bin/OpenGL.framework/Headers/glu.h"
@@ -2717,8 +2406,6 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2730,8 +2417,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2783,8 +2468,6 @@ events:
       - "vulkan/vulkan.h"
     candidate_directories:
       - "/include/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -2826,8 +2509,6 @@ events:
       - "/System/Library/Frameworks/"
     searched_directories:
       - "/include/vulkan.framework/Headers/vulkan.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/vulkan.framework/Headers/vulkan.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/vulkan.framework/Headers/vulkan.h"
       - "/usr/local/bin/vulkan.framework/Headers/vulkan.h"
       - "/System/Cryptexes/App/usr/bin/vulkan.framework/Headers/vulkan.h"
       - "/usr/bin/vulkan.framework/Headers/vulkan.h"
@@ -2868,8 +2549,6 @@ events:
       - "/Network/Library/Frameworks/vulkan.framework/Headers/vulkan.h"
       - "/System/Library/Frameworks/vulkan.framework/Headers/vulkan.h"
       - "/include/vulkan/vulkan.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/vulkan/vulkan.h"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/vulkan/vulkan.h"
       - "/usr/local/bin/vulkan/vulkan.h"
       - "/System/Cryptexes/App/usr/bin/vulkan/vulkan.h"
       - "/usr/bin/vulkan/vulkan.h"
@@ -2912,8 +2591,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -2925,8 +2602,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2977,8 +2652,6 @@ events:
     names:
       - "vulkan"
     candidate_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -2998,8 +2671,6 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -3021,8 +2692,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3034,8 +2703,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3087,8 +2754,6 @@ events:
       - "glslc"
     candidate_directories:
       - "/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -3131,8 +2796,6 @@ events:
       - "/Applications/"
     searched_directories:
       - "/bin/glslc"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glslc"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glslc"
       - "/usr/local/bin/glslc"
       - "/System/Cryptexes/App/usr/bin/glslc"
       - "/usr/bin/glslc"
@@ -3176,8 +2839,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3189,8 +2850,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3232,8 +2891,6 @@ events:
       - "glslangValidator"
     candidate_directories:
       - "/bin/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -3276,8 +2933,6 @@ events:
       - "/Applications/"
     searched_directories:
       - "/bin/glslangValidator"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glslangValidator"
-      - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glslangValidator"
       - "/usr/local/bin/glslangValidator"
       - "/System/Cryptexes/App/usr/bin/glslangValidator"
       - "/usr/bin/glslangValidator"
@@ -3321,8 +2976,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3334,8 +2987,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3405,22 +3056,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Qt6GuiToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/qt6guitools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Qt6GuiToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/qt6guitools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3466,8 +3101,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3479,8 +3112,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3563,22 +3194,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Qt6DBusToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/qt6dbustools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Qt6DBusToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/qt6dbustools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3624,8 +3239,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3637,8 +3250,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3747,8 +3358,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3760,8 +3369,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3862,8 +3469,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -3875,8 +3480,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3954,22 +3557,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4015,8 +3602,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -4028,8 +3613,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4130,8 +3713,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -4143,8 +3724,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4223,22 +3802,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/Qt6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/qt6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/Qt6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -7015,8 +6578,6 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -7028,8 +6589,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pmk/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/friedrichhahn/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7058,4 +6617,362 @@ events:
         - "/opt/homebrew/lib/cmake/Qt6"
         - "/opt/homebrew/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "/opt/homebrew/lib/cmake/Qt6/3rdparty/kwin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindCups.cmake:94 (find_path)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "CUPS_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cups/cups.h"
+    candidate_directories:
+      - "/Users/friedrichhahn/Projekte/Eigenfaces/build/SQT_HOME/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/friedrichhahn/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/friedrichhahn/Projekte/Eigenfaces/build/SQT_HOME/bin/cups.framework/Headers/cups.h"
+      - "/usr/local/bin/cups.framework/Headers/cups.h"
+      - "/System/Cryptexes/App/usr/bin/cups.framework/Headers/cups.h"
+      - "/usr/bin/cups.framework/Headers/cups.h"
+      - "/bin/cups.framework/Headers/cups.h"
+      - "/usr/sbin/cups.framework/Headers/cups.h"
+      - "/sbin/cups.framework/Headers/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/cups.framework/Headers/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/cups.framework/Headers/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/cups.framework/Headers/cups.h"
+      - "/opt/pmk/env/global/bin/cups.framework/Headers/cups.h"
+      - "/opt/homebrew/bin/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/cups.framework/Headers/cups.h"
+      - "/opt/homebrew/include/cups.framework/Headers/cups.h"
+      - "/opt/homebrew/cups.framework/Headers/cups.h"
+      - "/usr/local/include/cups.framework/Headers/cups.h"
+      - "/usr/local/cups.framework/Headers/cups.h"
+      - "/usr/include/cups.framework/Headers/cups.h"
+      - "/usr/cups.framework/Headers/cups.h"
+      - "/include/cups.framework/Headers/cups.h"
+      - "/usr/X11R6/include/cups.framework/Headers/cups.h"
+      - "/usr/X11R6/cups.framework/Headers/cups.h"
+      - "/usr/pkg/include/cups.framework/Headers/cups.h"
+      - "/usr/pkg/cups.framework/Headers/cups.h"
+      - "/opt/include/cups.framework/Headers/cups.h"
+      - "/opt/cups.framework/Headers/cups.h"
+      - "/sw/include/cups.framework/Headers/cups.h"
+      - "/sw/cups.framework/Headers/cups.h"
+      - "/opt/local/include/cups.framework/Headers/cups.h"
+      - "/opt/local/cups.framework/Headers/cups.h"
+      - "/usr/include/X11/cups.framework/Headers/cups.h"
+      - "/Users/friedrichhahn/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Network/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/System/Library/Frameworks/cups.framework/Headers/cups.h"
+      - "/Users/friedrichhahn/Projekte/Eigenfaces/build/SQT_HOME/bin/cups/cups.h"
+      - "/usr/local/bin/cups/cups.h"
+      - "/System/Cryptexes/App/usr/bin/cups/cups.h"
+      - "/usr/bin/cups/cups.h"
+      - "/bin/cups/cups.h"
+      - "/usr/sbin/cups/cups.h"
+      - "/sbin/cups/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/cups/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/cups/cups.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/cups/cups.h"
+      - "/opt/pmk/env/global/bin/cups/cups.h"
+      - "/opt/homebrew/bin/cups/cups.h"
+    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "SQT_HOME/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/homebrew/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindCups.cmake:96 (find_library)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "CUPS_LIBRARIES"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cups"
+    candidate_directories:
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/opt/homebrew/bin/"
+    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcups.tbd"
+    search_context:
+      ENV{PATH}:
+        - "SQT_HOME/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/homebrew/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    name: "Qt6PrintSupport"
+    configs:
+      -
+        filename: "Qt6PrintSupportConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6printsupport-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6PrintSupport"
+      search_paths:
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/pkgRedirects/Qt6PrintSupportConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/pkgRedirects/qt6printsupport-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6PrintSupportConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6printsupport-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6PrintSupportPrivate/Qt6PrintSupportConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6PrintSupportPrivate/qt6printsupport-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "SQT_HOME/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/homebrew/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
 ...

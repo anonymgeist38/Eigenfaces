@@ -209,6 +209,15 @@ visualize_eigenfaces_qt_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \
@@ -255,6 +264,7 @@ visualize_eigenfaces_qt_autogen/timestamp: \
 	/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake \
 	/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake \
+	/opt/homebrew/share/cmake/Modules/FindCups.cmake \
 	/opt/homebrew/share/cmake/Modules/FindGTest.cmake \
 	/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake \
 	/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \

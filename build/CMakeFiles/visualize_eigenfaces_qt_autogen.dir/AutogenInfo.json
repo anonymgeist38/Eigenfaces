@@ -397,7 +397,20 @@
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
-		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
+		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+		"/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindCups.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-release.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/friedrichhahn/Projekte/Eigenfaces",
 	"CROSS_CONFIG" : false,
@@ -407,7 +420,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -444,8 +457,8 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
-		"-std=gnu++17",
+		"/usr/bin/clang++",
+		"-std=gnu++11",
 		"-w",
 		"-dM",
 		"-E",

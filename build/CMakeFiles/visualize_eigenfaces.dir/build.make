@@ -73,7 +73,7 @@ visualize_eigenfaces_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
 visualize_eigenfaces_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 visualize_eigenfaces_autogen/timestamp: CMakeFiles/visualize_eigenfaces.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target visualize_eigenfaces"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/visualize_eigenfaces_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/visualize_eigenfaces_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/timestamp
 
 CMakeFiles/visualize_eigenfaces.dir/codegen:
@@ -83,29 +83,29 @@ CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilatio
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o: visualize_eigenfaces_autogen/mocs_compilation.cpp
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o: CMakeFiles/visualize_eigenfaces.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o -MF CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o -MF CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp
 
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp > CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp > CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o: CMakeFiles/visualize_eigenfaces.dir/flags.make
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o: /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o: CMakeFiles/visualize_eigenfaces.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o -MF CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o.d -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o -MF CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o.d -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp
 
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp > CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp > CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.i
 
 CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.s
 
 # Object files for target visualize_eigenfaces
 visualize_eigenfaces_OBJECTS = \

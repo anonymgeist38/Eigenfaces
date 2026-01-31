@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/visualize_eigenfaces_qt.dir/visualize_eigenfaces_qt_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/mocs_compilation.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/visualize_eigenfaces_qt.dir/visualize_eigenfaces_qt_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_qt_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/visualize_eigenfaces_qt.dir/visualize_eigenfaces_qt.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces_qt.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces_qt.cpp",
+  "output": "CMakeFiles/visualize_eigenfaces_qt.dir/visualize_eigenfaces_qt.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -g -std=gnu++11 -arch arm64 -o CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/generate_data.dir/generate_data_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/generate_data_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -g -std=gnu++11 -arch arm64 -o CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/generate_synthetic_data.cpp",
+  "output": "CMakeFiles/generate_data.dir/generate_synthetic_data.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -g -std=gnu++11 -arch arm64 -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/visualize_eigenfaces_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -g -std=gnu++11 -arch arm64 -o CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/visualize_eigenfaces.cpp",
+  "output": "CMakeFiles/visualize_eigenfaces.dir/visualize_eigenfaces.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/include -isystem /opt/homebrew/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtPrintSupport.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/include -isystem /opt/homebrew/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtPrintSupport.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp",
+  "output": "CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/include -isystem /opt/homebrew/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtPrintSupport.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp",
+  "output": "CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/test_eigenfaces_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_eigenfaces.dir/test_eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/test_eigenfaces_autogen/mocs_compilation.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/build/test_eigenfaces_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/test_eigenfaces.dir/test_eigenfaces_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/friedrichhahn/Projekte/Eigenfaces/build",
+  "command": "/usr/bin/clang++  -I/Users/friedrichhahn/Projekte/Eigenfaces/build/test_eigenfaces_autogen/include -isystem /opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_eigenfaces.dir/test_eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/test_eigenfaces.cpp",
+  "file": "/Users/friedrichhahn/Projekte/Eigenfaces/test_eigenfaces.cpp",
+  "output": "CMakeFiles/test_eigenfaces.dir/test_eigenfaces.cpp.o"
+}
+]

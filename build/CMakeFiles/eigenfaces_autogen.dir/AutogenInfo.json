@@ -397,17 +397,38 @@
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
-		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
+		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+		"/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindCups.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-release.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake",
+		"/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/friedrichhahn/Projekte/Eigenfaces",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "eigenfaces_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.h",
+			"MU",
+			"EWIEGA46WW/moc_qcustomplot.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_PRINTSUPPORT_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -417,10 +438,20 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/opt/homebrew/include",
 		"/opt/homebrew/Cellar/opencv/4.13.0_3/include/opencv4",
+		"/opt/homebrew/lib/QtCore.framework/Headers",
+		"/opt/homebrew/lib/QtCore.framework",
+		"/opt/homebrew/share/qt/mkspecs/macx-clang",
+		"/opt/homebrew/lib/QtGui.framework/Headers",
+		"/opt/homebrew/lib/QtGui.framework",
+		"/opt/homebrew/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtWidgets.framework",
+		"/opt/homebrew/lib/QtPrintSupport.framework/Headers",
+		"/opt/homebrew/lib/QtPrintSupport.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
@@ -436,7 +467,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/usr/bin/clang++",
 		"-std=gnu++11",
 		"-w",
 		"-dM",
@@ -461,8 +492,9 @@
 	"SETTINGS_FILE" : "/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/eigenfaces_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp", "MU", null ],
 		[
-			"/Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces_no_gui.cpp",
+			"/Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp",
 			"MU",
 			null
 		]

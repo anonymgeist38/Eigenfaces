@@ -73,7 +73,7 @@ eigenfaces_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
 eigenfaces_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 eigenfaces_autogen/timestamp: CMakeFiles/eigenfaces.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target eigenfaces"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/eigenfaces_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles/eigenfaces_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/timestamp
 
 CMakeFiles/eigenfaces.dir/codegen:
@@ -83,40 +83,56 @@ CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o: CMakeFiles/
 CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o: eigenfaces_autogen/mocs_compilation.cpp
 CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o: CMakeFiles/eigenfaces.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o -MF CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o -MF CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp
 
 CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp > CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp > CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp -o CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/build/eigenfaces_autogen/mocs_compilation.cpp -o CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o: CMakeFiles/eigenfaces.dir/flags.make
-CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o: /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces_no_gui.cpp
-CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o: CMakeFiles/eigenfaces.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o -MF CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o.d -o CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces_no_gui.cpp
+CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o: CMakeFiles/eigenfaces.dir/flags.make
+CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o: /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp
+CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o: CMakeFiles/eigenfaces.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o -MF CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o.d -o CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp
 
-CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces_no_gui.cpp > CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.i
+CMakeFiles/eigenfaces.dir/eigenfaces.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eigenfaces.dir/eigenfaces.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp > CMakeFiles/eigenfaces.dir/eigenfaces.cpp.i
 
-CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces_no_gui.cpp -o CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.s
+CMakeFiles/eigenfaces.dir/eigenfaces.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eigenfaces.dir/eigenfaces.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/eigenfaces.cpp -o CMakeFiles/eigenfaces.dir/eigenfaces.cpp.s
+
+CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o: CMakeFiles/eigenfaces.dir/flags.make
+CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o: /Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp
+CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o: CMakeFiles/eigenfaces.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o -MF CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o.d -o CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o -c /Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp
+
+CMakeFiles/eigenfaces.dir/qcustomplot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eigenfaces.dir/qcustomplot.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp > CMakeFiles/eigenfaces.dir/qcustomplot.cpp.i
+
+CMakeFiles/eigenfaces.dir/qcustomplot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eigenfaces.dir/qcustomplot.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/friedrichhahn/Projekte/Eigenfaces/qcustomplot.cpp -o CMakeFiles/eigenfaces.dir/qcustomplot.cpp.s
 
 # Object files for target eigenfaces
 eigenfaces_OBJECTS = \
 "CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o"
+"CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o" \
+"CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o"
 
 # External object files for target eigenfaces
 eigenfaces_EXTERNAL_OBJECTS =
 
 eigenfaces: CMakeFiles/eigenfaces.dir/eigenfaces_autogen/mocs_compilation.cpp.o
-eigenfaces: CMakeFiles/eigenfaces.dir/eigenfaces_no_gui.cpp.o
+eigenfaces: CMakeFiles/eigenfaces.dir/eigenfaces.cpp.o
+eigenfaces: CMakeFiles/eigenfaces.dir/qcustomplot.cpp.o
 eigenfaces: CMakeFiles/eigenfaces.dir/build.make
 eigenfaces: /opt/homebrew/lib/libopencv_gapi.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_stitching.4.13.0.dylib
@@ -154,6 +170,7 @@ eigenfaces: /opt/homebrew/lib/libopencv_wechat_qrcode.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_xfeatures2d.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_xobjdetect.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_xphoto.4.13.0.dylib
+eigenfaces: /opt/homebrew/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport
 eigenfaces: /opt/homebrew/lib/libopencv_shape.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_highgui.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_datasets.4.13.0.dylib
@@ -174,8 +191,12 @@ eigenfaces: /opt/homebrew/lib/libopencv_flann.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_photo.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_imgproc.4.13.0.dylib
 eigenfaces: /opt/homebrew/lib/libopencv_core.4.13.0.dylib
+eigenfaces: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+eigenfaces: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
+eigenfaces: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
+eigenfaces: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcups.tbd
 eigenfaces: CMakeFiles/eigenfaces.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable eigenfaces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/friedrichhahn/Projekte/Eigenfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable eigenfaces"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eigenfaces.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
