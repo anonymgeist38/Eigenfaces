@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eigenfaces Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #0066cc;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .eigenface-card {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .eigenface-card img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-bottom: 8px;
+        }
+        .eigenface-card p {
+            margin: 5px 0;
+            font-size: 12px;
+            color: #666;
+        }
+        .plot-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .plot-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .info-box {
+            background-color: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .mean-face {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .mean-face img {
+            max-width: 300px;
+            border: 2px solid #0066cc;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eigenfaces Visualization Results</h1>
+        
+        <div class="info-box">
+            <h3>Analysis Summary</h3>
+            <ul>
+                <li><strong>Total Training Images:</strong> 2186 (90% of 2429)</li>
+                <li><strong>Image Dimension:</strong> 19 × 19 pixels = 361 dimensions</li>
+                <li><strong>Total Eigenfaces (Components):</strong> 361</li>
+                <li><strong>Components for 90% Variance:</strong> 287</li>
+                <li><strong>Components for 95% Variance:</strong> ~300+</li>
+                <li><strong>Test Images:</strong> 243 (10% of 2429)</li>
+            </ul>
+        </div>
+
+        <h2>Mean Face (Average Training Image)</h2>
+        <div class="mean-face">
+            <img src="../../images/train/eigenVecVis/mean_face.png" alt="Mean Face">
+            <p><em>The average pixel values across all 2186 training images</em></p>
+        </div>
+
+        <h2>Top 16 Eigenfaces (Principal Components)</h2>
+        <p>These are the first 16 principal components that capture the most variance in the face images. Each eigenface represents a pattern of facial variation learned from the training data.</p>
+        <div class="grid">
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_0.png" alt="Eigenface 0">
+                <p><strong>Eigenface 0</strong><br>Variance: 0.54%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_1.png" alt="Eigenface 1">
+                <p><strong>Eigenface 1</strong><br>Cumulative: 1.08%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_2.png" alt="Eigenface 2">
+                <p><strong>Eigenface 2</strong><br>Cumulative: 1.61%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_3.png" alt="Eigenface 3">
+                <p><strong>Eigenface 3</strong><br>Cumulative: 2.14%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_4.png" alt="Eigenface 4">
+                <p><strong>Eigenface 4</strong><br>Cumulative: 2.66%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_5.png" alt="Eigenface 5">
+                <p><strong>Eigenface 5</strong><br>Cumulative: 3.18%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_6.png" alt="Eigenface 6">
+                <p><strong>Eigenface 6</strong><br>Cumulative: 3.69%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_7.png" alt="Eigenface 7">
+                <p><strong>Eigenface 7</strong><br>Cumulative: 4.20%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_8.png" alt="Eigenface 8">
+                <p><strong>Eigenface 8</strong><br>Cumulative: 4.71%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_9.png" alt="Eigenface 9">
+                <p><strong>Eigenface 9</strong><br>Cumulative: 5.21%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_10.png" alt="Eigenface 10">
+                <p><strong>Eigenface 10</strong><br>Cumulative: 5.71%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_11.png" alt="Eigenface 11">
+                <p><strong>Eigenface 11</strong><br>Cumulative: 6.20%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_12.png" alt="Eigenface 12">
+                <p><strong>Eigenface 12</strong><br>Cumulative: 6.70%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_13.png" alt="Eigenface 13">
+                <p><strong>Eigenface 13</strong><br>Cumulative: 7.19%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_14.png" alt="Eigenface 14">
+                <p><strong>Eigenface 14</strong><br>Cumulative: 7.68%</p>
+            </div>
+            <div class="eigenface-card">
+                <img src="../../images/train/eigenVecVis/eigenface_15.png" alt="Eigenface 15">
+                <p><strong>Eigenface 15</strong><br>Cumulative: 8.17%</p>
+            </div>
+        </div>
+
+        <h2>Eigenvalue Spectrum</h2>
+        <div class="plot-container">
+            <img src="../../images/train/eigenVecVis/spectrum_plot.png" alt="Eigenvalue Spectrum">
+            <p><em>Distribution of eigenvalues across all 361 principal components</em></p>
+        </div>
+
+        <div class="info-box">
+            <h3>Spectrum Interpretation</h3>
+            <ul>
+                <li>The spectrum shows that the largest eigenvalues occur in the early components (left side)</li>
+                <li>This indicates that the first few principal components capture most of the variance</li>
+                <li>The long tail of small eigenvalues means later components contribute less to explaining facial variation</li>
+            </ul>
+        </div>
+
+        <h2>Cumulative Variance Explained</h2>
+        <div class="plot-container">
+            <img src="../../images/train/eigenVecVis/variance_plot.png" alt="Cumulative Variance">
+            <p><em>Cumulative variance explained as more principal components are included</em></p>
+        </div>
+
+        <div class="info-box">
+            <h3>Variance Analysis</h3>
+            <ul>
+                <li>The red dashed line marks 90% cumulative variance</li>
+                <li>Need ~287 components (out of 361) to explain 90% of variance</li>
+                <li>This shows that face images have significant redundancy</li>
+                <li>Dimensionality reduction from 361 → 287 dims saves ~20% of space while retaining 90% information</li>
+                <li>Further reduction to ~150 components might retain ~70-80% variance</li>
+            </ul>
+        </div>
+
+        <h2>Complete Eigenfaces Grid</h2>
+        <div class="plot-container">
+            <img src="../../images/train/eigenVecVis/eigenfaces_grid.png" alt="Eigenfaces Grid">
+            <p><em>4×5 grid of the first 20 principal component eigenfaces</em></p>
+        </div>
+
+        <div class="info-box">
+            <h3>Key Observations</h3>
+            <ul>
+                <li>Early eigenfaces (0-3) show broad lighting and overall shape variations</li>
+                <li>Middle eigenfaces (4-10) capture medium-frequency facial features</li>
+                <li>Later eigenfaces (11+) capture finer details and textures</li>
+                <li>Each eigenface is orthogonal - captures independent variation pattern</li>
+                <li>Random data → eigenfaces look like noise patterns (as expected)</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

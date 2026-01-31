@@ -1,32 +1,43 @@
+
+
+#pragma GCC diagnostic ignored "-Wsystem-headers"
+#pragma GCC diagnostic ignored "-Wno-parentheses"
 #include <iostream>
 #include <vector>
 #include <istream>
 #include <fstream>
 #include <random>
+#include <chrono>
 #include <algorithm>
 
-#include "opencv2/opencv.hpp"
-#include "opencv2/core/core.hpp"
+#include <opencv2/core/core.hpp>
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 
-#include <qapplication.h>
-#include <qmainwindow.h>
-#include "qcustomplot.h"
+// Qt6 headers - QCustomPlot now installed
+
+#include <QtCore/qglobal.h>
+#include <QtCore/QVector>
+#include <QMainWindow>
+#include "/opt/homebrew/include/qcustomplot.h"
 
 #define NO_OF_IMAGES 2429
 
 using namespace std;
 using namespace cv;
-using namespace QCP;
 
 vector<Mat> read_faces() {
     vector<Mat> training_images;
     training_images.reserve(NO_OF_IMAGES);  // Pre-allocate
-    string images_path = "images/train/face";
+    string images_path = "images/train/face/face";
     string suffix = ".pgm";
     for (int i = 0; i < NO_OF_IMAGES; i++) {
-        Mat img = imread(cv::format("%s%05d.pgm", images_path.c_str(), i), 0);
+        string filename = images_path + string(5 - to_string(i).length(), '0') + to_string(i) + suffix;
+        Mat img = imread(filename, IMREAD_GRAYSCALE);
+        if (img.empty()) {
+            cerr << "Warning: Failed to load image: " << filename << endl;
+            continue; // Skip missing image
+        }
         training_images.push_back(img);
     }
     return training_images;
@@ -67,11 +78,12 @@ void calcNearestNeighbours(Mat& XTest, Mat& XTrain,
         vector<Mat>& nearestNeighbour, vector<int> testIndices,
         int training_examples_count, int kNeighbours, string space) {
 
-    map<int, vector<double>> allDistances;
-    allDistances.reserve(testIndices.size());
 
+    map<int, vector<double>> allDistances;
+    vector<vector<double>> distancesVector(training_examples_count, vector<double>());
+    
     for (int i = 0; i < (int)testIndices.size(); i++) {
-        vector<double> distances;
+        vector<double>& distances = distancesVector[i];
         distances.reserve(training_examples_count);
         
         for (int j = 0; j < training_examples_count; j++) {
@@ -113,35 +125,30 @@ void visualizeEigenVectors(Mat viz, const Mat& V,
     imwrite("images/train/eigenVecVis/eigenVecViz" + to_string(index) + ".png", dst);
 }
 
-void plotDistances(QCustomPlot &customPlot1, const QVector<double>& column1,
-        QVector<double>& column2, QMainWindow &window1, int plotNumber) {
-    customPlot1.addGraph();
-    string plotNumberIndexing = to_string(plotNumber);
-    QString plotNumberIndex = plotNumberIndexing.c_str();
-    QString indexing = "Distance from test data " + plotNumberIndex + " to 2186 number of training data";
-    window1.setWindowTitle(indexing);
-    customPlot1.graph(0)->setData(column1, column2);
-    
-    customPlot1.plotLayout()->insertRow(0);
-    QCPPlotTitle plotTitle(&customPlot1, indexing);
-    customPlot1.plotLayout()->addElement(0, 0, &plotTitle);
-    customPlot1.xAxis->setLabel("x");
-    customPlot1.yAxis->setLabel("y");
-    customPlot1.xAxis->setRange(0, column1.size());
-    auto maxYvalue = max_element(column2.begin(), column2.end());
-    customPlot1.yAxis->setRange(0, *maxYvalue);
-    customPlot1.setInteraction(iRangeDrag, true);
-    customPlot1.setInteraction(iRangeZoom, true);
-    customPlot1.setNoAntialiasingOnDrag(true);
-    window1.setGeometry(100, 100, 500, 400);
-    window1.show();
-    QString outputDir = "images/EuclideandistancesPlots/";
-    string prefix = to_string(plotNumber) + to_string(int(*maxYvalue)) + ".png";
-    QString fileName = prefix.c_str();
-    customPlot1.saveJpg(outputDir + "/" + fileName, 0, 0, 1.0, -1);
+// Qt plotting disabled - QCustomPlot not installed
+
+void plotDistances(QCustomPlot &customPlot, const QVector<double>& x, const QVector<double>& y, QMainWindow &window, int plotNumber) {
+    customPlot.addGraph();
+    customPlot.graph(0)->setData(x, y);
+    customPlot.xAxis->setLabel("Index");
+    customPlot.yAxis->setLabel("Distance");
+    customPlot.rescaleAxes();
+    customPlot.setWindowTitle(QString("Distance Plot %1").arg(plotNumber));
+    window.setCentralWidget(&customPlot);
+    window.resize(600, 400);
+    window.show();
 }
 
 int main(int argc, char **argv) {
+    // Ensure program is run from project root
+    std::ifstream test_image_file("images/train/face/face00000.pgm");
+    if (!test_image_file.good()) {
+        std::cerr << "\nERROR: Please run this program from the project root directory (where images/ is located)." << std::endl;
+        std::cerr << "Current working directory does not contain images/train/face/face00000.pgm" << std::endl;
+        return 1;
+    }
+    test_image_file.close();
+
 
     QApplication a(argc, argv);
     QMainWindow window1[10];
@@ -158,7 +165,9 @@ int main(int argc, char **argv) {
 
     // Reading faces into a vector of matrices
     vector<Mat> faces = read_faces();
-    random_shuffle(faces.begin(), faces.end());
+    // Use std::shuffle instead of deprecated random_shuffle
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::shuffle(faces.begin(), faces.end(), std::default_random_engine(seed));
     cout << faces.size() << endl;
 
     vector<Mat> training_set;
@@ -243,9 +252,9 @@ int main(int argc, char **argv) {
     file_handle_eigen_values.close();  // Close immediately
 
     // OPTIMIZATION 3: Pre-reserve vector space
-    QVector<double> eigenValues;
+    std::vector<double> eigenValues;
     eigenValues.reserve(E.rows);
-    QVector<double> basis;
+    std::vector<double> basis;
     basis.reserve(E.rows);
 
     for(int i = 0; i < E.rows; i++){
@@ -254,29 +263,10 @@ int main(int argc, char **argv) {
         basis.push_back(i);
     }
 
-    QCustomPlot spectrumPlot;
-    QMainWindow window;
-
-    QString indexing1 = "Spectrum of co-variance";
-    window.setCentralWidget(&spectrumPlot);
-    window.setWindowTitle(indexing1);
-    spectrumPlot.addGraph();
-    spectrumPlot.graph(0)->setData(basis, eigenValues);
-    spectrumPlot.plotLayout()->insertRow(0);
-    QCPPlotTitle plotTitle(&spectrumPlot, indexing1);
-    spectrumPlot.plotLayout()->addElement(0, 0, &plotTitle);
-    spectrumPlot.xAxis->setLabel("x");
-    spectrumPlot.yAxis->setLabel("y");
-    spectrumPlot.setInteraction(iRangeDrag, true);
-    spectrumPlot.setInteraction(iRangeZoom, true);
-    spectrumPlot.setNoAntialiasingOnDrag(true);
-    spectrumPlot.xAxis->setRange(0, 2186);
-    spectrumPlot.yAxis->setRange(1, 900000);
-    window.setGeometry(100, 100, 500, 400);
-    window.show();
-    QString fileName = "Spectrum-of-co-variance.png";
-    QString outPutDir = "images/";
-    spectrumPlot.saveJpg(outPutDir + fileName, 0, 0, 1.0, -1);
+    // Qt spectrum plot disabled - QCustomPlot not installed
+    // QCustomPlot spectrumPlot;
+    // QMainWindow window;
+    // ... Qt plotting code removed
 
     Mat coVarMat;
     Mat meanMat;
@@ -387,8 +377,8 @@ int main(int argc, char **argv) {
     vector<float> EucDistToTrain_Data;
     EucDistToTrain_Data.reserve(10 * 2186);
 
-    QVector<double> column1;
-    QVector<double> column2;
+    vector<double> column1;
+    vector<double> column2;
 
     // OPTIMIZATION 4: Cache matrix columns
     for (int i = 0; i < 10; i++) {
@@ -407,7 +397,9 @@ int main(int argc, char **argv) {
         }
         
         sort(column2.begin(), column2.end(), greater<float>());
-        plotDistances(customPlot1[i], column1, column2, window1[i], i);
+        QVector<double> qx(column1.begin(), column1.end());
+        QVector<double> qy(column2.begin(), column2.end());
+        plotDistances(customPlot1[i], qx, qy, window1[i], i);
         column1.clear();
         column2.clear();
     }
@@ -444,8 +436,8 @@ int main(int argc, char **argv) {
     cout << "Projection matrix for test data rows " << projectionMatrix_testData.rows 
          << " and columns " << projectionMatrix_testData.cols << endl;
 
-    QVector<double> column_test_set_indices;
-    QVector<double> column_distances;
+    vector<double> column_test_set_indices;
+    vector<double> column_distances;
     vector<float> EucDistToTrain_Data_after_pca;
     EucDistToTrain_Data_after_pca.reserve(10 * 2186);
 
@@ -464,7 +456,9 @@ int main(int argc, char **argv) {
         }
         
         sort(column_distances.begin(), column_distances.end(), greater<float>());
-        plotDistances(customPlot2[i], column_test_set_indices, column_distances, window2[i], i);
+        QVector<double> qx(column_test_set_indices.begin(), column_test_set_indices.end());
+        QVector<double> qy(column_distances.begin(), column_distances.end());
+        plotDistances(customPlot2[i], qx, qy, window2[i], i);
         column_distances.clear();
         column_test_set_indices.clear();
     }
@@ -486,6 +480,10 @@ int main(int argc, char **argv) {
     calcNearestNeighbours(projectionMatrix_testData, projectionMatrix_trainingData, nearestNeighbours_orig_space, testSamplesIndices, training_set.size(), 1, "Sub-space");
 
     imshow("Mean Img", meanImg);
+    // Start Qt event loop so Qt windows appear immediately
+    int qt_result = a.exec();
+
+    // After Qt windows are closed, optionally wait for OpenCV window
     waitKey(0);
 
     // Close all file handles
@@ -502,5 +500,5 @@ int main(int argc, char **argv) {
     E.release();
     V.release();
 
-    return 0;
+    return qt_result;
 }

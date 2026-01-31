@@ -57,6 +57,28 @@ Fixed multiple critical and non-critical issues in the eigenfaces implementation
   ```
 - **Impact:** Prevents crashes on invalid input data
 
+### 7. **Qt6/QCustomPlot/PrintSupport Integration** (Critical)
+- **Location:** CMakeLists.txt, eigenfaces.cpp, qcustomplot.cpp/h
+- **Issue:**
+  - QCustomPlot 2.0.1 was not compatible with Qt6 (build and linker errors)
+  - QCustomPlot meta-object code (signals/slots) not generated (missing AUTOMOC processing)
+  - QPrinter symbols missing (PrintSupport not linked)
+- **Fixes:**
+  - Upgraded QCustomPlot to 2.1.1+ (Qt6 compatible)
+  - Added `qcustomplot.h` to `add_executable(eigenfaces ...)` for AUTOMOC
+  - Added `Qt6::PrintSupport` to `target_link_libraries(eigenfaces ...)`
+  - Updated `find_package(Qt6 COMPONENTS ...)` to include PrintSupport
+- **Impact:**
+  - GUI build now works with Qt6 and QCustomPlot
+  - All QCustomPlot features (including PDF export) are available
+  - No more linker or meta-object errors
+
+### 8. **Working Directory Check for Images** (Medium Priority)
+- **Location:** eigenfaces.cpp (main)
+- **Issue:** Program failed if not run from project root (could not find images)
+- **Fix:** Added runtime check for `images/train/face/face00000.pgm` and error message
+- **Impact:** Prevents confusing errors, guides user to run from correct directory
+
 ## Compilation Notes
 
 ### Before Fixes
